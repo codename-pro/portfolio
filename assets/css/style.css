@@ -1,0 +1,19 @@
+.modal-body-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 800px;
+    margin: 1.75rem auto;
+  }
+}
+
+/* Modal content */
+
+.modal-descr-wrap {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
